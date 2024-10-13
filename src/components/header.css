@@ -1,0 +1,334 @@
+.header_text{
+    max-width: 100%;
+    height: fit-content;
+    background-color:#FEF6DD ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 10px;
+    gap: 5px;
+
+}
+.header_text button{
+    background-color: #FFE96E;
+    padding: 6px 35px;
+    font-weight: 600;
+    border: none;
+    font-size: .9rem;
+    border-radius: 5px;
+}
+.header_text p{
+    text-align: center;
+    font-size: 0.9rem;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 15px;
+    background-color: #FFE96E;
+    
+}
+.navbar img{
+    width: 100px;
+   
+}
+.menu-btn{
+    /* display: none; */
+}
+.menu-btn-logo{
+    font-size: 2.5rem;
+    color: #25E271;
+}
+.menuWeb {
+    display: none;
+}
+.menuMobile{
+    display: none;
+    background-color: rgb(247, 247, 247);
+    padding: 10px 0;
+    position: absolute;
+    top: 140px;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+   
+}
+.menuMobile.showMenu{
+   display: block;
+}
+
+.menuMobile ul{
+    
+    padding-left: 18px;
+    
+   
+}
+.menuMobile ul li{
+    font-size: 16px;
+     width: 100%;
+    margin: 15px 0;
+    display: flex;
+    
+    font-weight: 600;
+
+}
+.menuMobile ul li ul {
+    /* background-color: #FFE96E; */
+    border: none;
+    
+    top: 70px;
+    left: 0;
+    /* display: none; */
+    width: 100%;
+}
+.subMenu-box li{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    
+}
+.subMenu-box li ul li {
+    display: block;
+    text-align: left;
+    margin: 18px;
+   
+}
+.menuSubMobile{
+    display: none;
+    background-color: rgb(241, 241, 241);
+    padding: 10px 0;
+    /* position: absolute; */
+    top: 140px;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+    
+    
+}
+.menuSubMobile.showSubMenu{
+  display: block;
+}
+
+.menuSubWeb {
+    display: none;
+}
+.dropMenu-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+.dropMenu-btn button{
+   
+   width: 180px;
+   height: 42px;
+}
+.home-container{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.home-box-1{
+    position: relative;
+    width: 285px;
+    background-size: contain;
+    background-image: url("C:\Users\Ashish\Desktop\React_js\Wati-clone\public\images\wati-dashboard-new.webp");
+    background-repeat: no-repeat;    
+    background-position: center;
+   
+
+}
+.home-box-1 img{
+   
+   width: 200px;    
+   margin-top: 30px;
+   
+}
+.home-box-2{
+    width: 100%;
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px 15px;
+    
+}
+
+.book-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  text-decoration: none;
+  
+}
+.no-card {
+  display: flex;
+  align-items: center;
+   color: black;
+   text-decoration: none;
+   font-size: .9rem;
+   font-weight: 500;
+}
+
+
+
+/* -----------------------------------------media query----------------------------- */
+
+
+@media (min-width:768px) {
+    
+    .header_text{             
+        flex-direction: row;
+        gap: 15px;     
+       
+    }
+    .header_text button{
+        font-size: .9rem;
+        padding: 6px 22px;
+        font-weight: 600;
+    }
+    
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 12px;
+        padding: 15px 35px;
+    }
+    .menuMobile{
+        padding: 0 25px;
+    }
+    .home-box-1 img {
+        max-width: 520px;
+        margin-top: 30px;
+        height: 460px;
+    }
+    .btn-bookdemo{
+        display: flex;
+        gap: 15px;
+       
+    }
+    .dropMenu-btn{
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        width: 250px;
+    
+    }
+}
+
+
+
+@media (min-width:992px) {
+    .navbar {
+        padding: unset;
+      position: sticky;
+        
+    }
+    .menu-btn{
+        display: none;
+    }
+    .subMenu-box span{
+        display: none;
+    }
+    .menuMobile {
+        display: flex;
+        flex-direction: row;
+        position: unset;
+        box-shadow: unset;
+        background-color: unset;
+        text-align: end;
+        width: unset;
+    }
+    .menuMobile ul li ul {
+        /* background-color: #FFE96E; */
+        border: none;
+        top: 0;
+        left: 0;
+        display: none;
+        width: 100%;
+    }
+    .menuMobile ul {
+        padding-left: 0;
+    }
+    .menuMobile > ul  {
+        
+        display: flex;
+        /* align-items: center; */
+        justify-content: flex-end;
+        gap: 20px;
+        font-size:1rem ;
+        font-weight: 800;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .menuWeb ul li a:hover{
+       background-color: #25E271;
+     
+    }
+    .menuWeb {
+        display: inline-block;
+        
+    }
+   
+   .menuSubMobile {
+    display: unset;
+    position: relative;
+
+   }
+   .menuSubMobile ul {
+    display: none;
+    position: relative;
+
+   }
+   .menuMobile ul li {
+
+    font-size: 15px;
+   }
+
+    .subMenu-box li{
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation: 0.6s up;
+        /* flex-direction: row; */
+        /* justify-content: left; */
+
+        
+    }
+    .dropdown li:hover .menuSubMobile{
+   color: #25E271;
+       display: block;
+      
+        
+       
+        
+        
+    }
+    .nav-parent{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+       
+       
+    }
+    
+   
+    /* .subMenu-box:hover .menuMobile{display: block;} */
+    /* .dropdown:hover .dropdown-content {display: block;} */
+    
+    
+    
+}
