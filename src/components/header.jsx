@@ -2,9 +2,11 @@
 import { useState } from "react";
 import "./header.css";
 import { CgMenuRightAlt } from "react-icons/cg";
-import { FaChevronRight } from "react-icons/fa6";
+
 import { IoIosArrowDown } from "react-icons/io";
 
+
+import { RiArrowRightSLine } from "react-icons/ri";
 
 
 const Header = () => {
@@ -77,7 +79,7 @@ const handleSub5 = ()=>{
           <div className="nav-parent">
           <div>
             <a href="">
-              <img src="\images\wati-logo-1.svg" alt="" />
+              <img src=".\images\wati-logo-1.svg" alt="" />
             </a>
           </div>
           
@@ -170,9 +172,12 @@ const handleSub5 = ()=>{
           <div className="menu-btn"> <a onClick={handleMenuBtn}><CgMenuRightAlt className="menu-btn-logo" /></a> </div>
         </nav>
 
-        <div className="home-container">
-          <div className="home-box-1">
+        <div className="home-container ">
+
+          <div className="home-box-1 ">
+            <div className="image-box">
             <img src=".\images\wati-communicate.webp" alt="" />
+            </div>
           </div>
 
           <div className="home-box-2">
@@ -184,11 +189,11 @@ const handleSub5 = ()=>{
               Personalize communication and sell more with the WhatsApp Business
               API platform that automates marketing, sales, service and support.
             </p>
-
+             
             <div className="btn-bookdemo">
               <button className="main-button">Free 7 Day Trial</button>
               <a href="" className="book-link">
-                or Book a Demo Today <FaChevronRight />
+                or Book a Demo Today <RiArrowRightSLine />
               </a>
             </div>
             <div>
@@ -201,6 +206,7 @@ const handleSub5 = ()=>{
                 No credit card required
               </a>
             </div>
+            
           </div>
         </div>
       </div>

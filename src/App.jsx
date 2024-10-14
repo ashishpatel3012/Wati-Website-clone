@@ -1,5 +1,6 @@
 
 import './App.css'
+import CompanyLogos from './components/CompanyLogos'
 import Header from './components/header'
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
     <>
     
     <Header/>
-    
+    <CompanyLogos/>
     </>
   )
 }
