@@ -1,17 +1,37 @@
 import "./CompanyLogos.css"
 
+// import $ from "jquery";
+import jQuery from 'jquery';
+window.jQuery = jQuery;
+
+
+import "./jquery.js"
+import "./logosslide.css"
+import "./slider.css"
+import "./logosslide.js"
+
+
+
+
+
 const CompanyLogos = () => {
+
+
+  
   return (
     
     <>
       <div className="logos">
-
-        <div className="logos-box">
+       
+        <div className="logos-box  ">
+         <div className="logos-layer ">
            <h1>Trusted by the <span style={{ color: "#25E271" }}>fastest growing brands</span>  in rapidly developing economies</h1>
         
           
-                <div className="slider">
-                    <div className="slide-track">
+                <div className="slider  ">
+                    <div className="slide-track owl-carousel owl-theme ">
+                    
+
                             <div className="slide"><img src="\images\logos\Adventurrush.svg" alt="" /></div>
                             <div className="slide"><img src="/images/logos/Changi-airport.svg" alt="" /></div>
                             <div className="slide"><img src="/images/logos/dukan.svg" alt="" /></div>
@@ -39,8 +59,12 @@ const CompanyLogos = () => {
                             
                       
                     </div>
+          
+                    
                 </div>
                 </div>
+                </div>
+ 
      </div>
     </>
   )
