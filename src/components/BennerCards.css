@@ -1,0 +1,181 @@
+
+.benner-box{
+    width: 100%;
+    /* background-color: beige; */
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.benner-cards{
+    background-color: #E3F5FF;
+    width: 100%;
+    margin: 0 15px;
+    padding:0 15px;
+    border-radius: 20px;
+    border: 5px   solid #50C4FE ;
+    border-width:0 5px 5px 0 ;
+   
+    
+}
+.benner-cards-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 20px; */
+    line-height: 1.8;
+    margin: 20px 0;
+    
+}
+/* .title{
+    width: 100%;
+    background-color: aqua;
+    text-align: center; 
+} */
+ h2 {
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 22px;
+    width: 210px;
+    padding: 10px ;
+    background-color: #E3F5FF;
+    
+    margin-bottom: 20px;
+
+}
+p{
+    font-size: 16px;
+}
+.benner-cards img{
+   max-width: 250px;
+}
+.info-box h3{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 5px 0;
+}
+button{
+    margin-top: 15px;
+    
+}
+.btn-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+ }
+.outside-btn{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 20px 0;
+
+}
+.outside-btn button{
+    /* height: 100%; */
+    margin: unset;
+}
+.outside-btn a{
+    font-size:12px;
+    text-decoration: underline;
+}
+
+
+/* -----------------------------------------media query----------------------------- */
+
+@media (min-width: 768px) {
+    .benner-box{
+        padding: 30px;
+    }
+    .benner-cards-box{
+        padding: 0 15px;
+    }
+    .benner-cards{
+        margin-top: 20px;
+    }
+    .benner-cards img{
+        max-width: 675px;
+     }
+     .info-box {
+      width: 100%;
+     }
+     .btn-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+     }
+     .outside-btn{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+       
+    
+    }
+    .outside-btn a{
+      text-decoration: none;
+    }
+    .outside-btn a:hover{
+        border: 1px solid black;
+      }
+
+}
+
+
+@media (min-width: 992px) {
+    .benner-cards{
+        padding: 30px;
+    
+    }
+    h2{
+        font-size: 28px;
+    }
+    .info-box h3 {
+        text-align: left;
+        font-size: 28px;
+    }
+    .benner-cards-box{
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+        /* margin: 20px 0; */
+    }
+    .benner-cards img{
+        max-width: 370px;
+     }
+     .btn-info{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        /* justify-content: center; */
+     }
+     .img-box{
+        order: 2;
+     }
+     .btn-info{
+        order: 1;
+     }
+     
+
+  
+}
+
+
+@media (min-width: 1200px) {
+    
+    }
+
+
+
+

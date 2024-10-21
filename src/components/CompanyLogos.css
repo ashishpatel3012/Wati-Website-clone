@@ -12,6 +12,10 @@
     padding-top: 25px;
     
 }
+.logos-layer{
+  width: 100%;
+  height: 100%;
+}
 .logos-layer::after,.logos-layer::before{
   
  background: linear-gradient(to right, rgba(253, 236, 255,9)50%,rgba(255,255,255,0)100%);
@@ -49,14 +53,14 @@
   transform: rotate(180deg);
 }
 
-.logos img {
+ /* img {
   
     width: 100px;
-    
+    background-color: aqua;
    
     animation: scroll 8s linear infinite;
     margin-top: 20px;
-  }
+  } */
   
   .slide-track {
     width: 100%;
@@ -67,6 +71,15 @@
     /* display: flex; */
     width: calc(250px * 18);
 
+  }
+  .slider{
+    width: 100%;
+  }
+  .slide img{
+    /* background-color: red; */
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
   }
   
   

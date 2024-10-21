@@ -28,7 +28,7 @@ const CompanyLogos = () => {
            <h1>Trusted by the <span style={{ color: "#25E271" }}>fastest growing brands</span>  in rapidly developing economies</h1>
         
           
-                <div className="slider  ">
+                <div className="slider ">
                     <div className="slide-track owl-carousel owl-theme ">
                     
 
