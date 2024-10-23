@@ -162,7 +162,7 @@ const handleSub5 = ()=>{
                   
                   
                   <div className="dropMenu-btn">
-                    <button className="main-button" style={{backgroundColor:"white" }}>Book Demo</button>          
+                    <button className="main-button white-btn" >Book Demo</button>          
                     <button className="main-button">Free Trial</button>           
                   </div>
               </ul>    

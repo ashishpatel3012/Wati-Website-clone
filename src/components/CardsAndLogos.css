@@ -1,0 +1,223 @@
+.two-cards-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 0;
+}
+.title {
+  text-align: center;
+  min-width: 315px;
+  padding: 0 10px;
+}
+.title h1 {
+  font-size: 28px;
+}
+.title p {
+  font-size: 16px;
+}
+.two-cards {
+  background-color: #ffe96e;
+}
+.cardss {
+  background-color: white;
+  border-radius: 20px;
+  border: 3px solid black;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 15px;
+}
+.cardss h1 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.cardss p {
+  font-size: 16px;
+  max-width: 350px;
+}
+
+
+/* ----------------------------------------- */
+
+.cmpny-logos-box{
+  padding: 15px;
+  
+  text-align: center;
+
+}
+.cmpny-logos-box h1{
+  text-align: center;
+   padding: 0 10px;
+   font-size: 22px;
+   font-weight: 400;
+   margin: 10px 0;
+}
+.cmpny-logos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.cmpny-logos img{
+    width: 105px;
+    object-fit: contain;
+}
+.cmpny-logos ul {
+ display: flex;
+ width: 100%;
+ /* background-color: aqua; */
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: space-between;
+ gap: 35px;
+ margin: 20px 0;
+
+}
+.cmpny-logos ul li{
+  /* background-color: #ffe96e; */
+  text-align: center;
+  width: 140px;
+}
+.bluebtn-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+
+/* ----------------------------------------------- */
+
+
+.face-card-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+  /* width: 95%; */
+  
+}
+.face-card-box-title{
+  
+  /* display: flex;
+  flex-direction: column; */
+  text-align: center;
+}
+.face-card-box-title h1{
+  font-size: 28px !important;
+}
+
+.face-card-box img{
+  width: 200px;
+}
+.face-card-box h1{
+  font-size: 18px;
+}
+.face-card-box p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+}
+.green-card{
+  background-color: #00E785;
+  padding: 35px 10px;
+  margin: 80px 0;
+  border-radius: 15px;
+  
+}
+.green-card{
+   border: 3px solid black;
+}
+.green-card h1{
+  text-align: center;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 22px;
+}
+.green-card .green-btn {
+  background-color: #00E785;
+  border: 3px solid black;
+}
+
+
+
+/* -----------------------------------------media query----------------------------- */
+
+@media (min-width: 768px) {
+  .cards-box {
+    padding: 0 20px;
+  }
+  .cardss p {
+    max-width: 725px;
+  }
+  .cmpny-logos ul {
+    display: flex;
+    width: 100%;
+    /* background-color: aqua; */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+ 
+   
+   }
+}
+
+@media (min-width: 992px) {
+  .cards-box {
+    display: flex;
+    justify-content: center;
+  }
+  .title h1 {
+    font-size: 36px;
+  }
+  .title p {
+    font-size: 18px;
+  }
+  .cardss {
+    border: none;
+  }
+  .cmpny-logos-box{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    
+  }
+  .cmpny-logos ul{
+    gap: 50px 120px;
+    display: flex;
+     
+    /* background-color: aqua; */
+    
+    justify-content: space-between;
+ 
+  }
+  .cmpny-logos ul li img{
+    width: 150px;
+    
+  }
+  /* .cmpny-logos ul li img{
+  height: 80px;
+  width: 100%;
+  background-color: #ffe96e;
+  } */
+  .cmpny-logos-box h1{
+    text-align: center;
+     /* padding: 0 10px; */
+     font-size: 28px;
+     text-align: left;
+     
+  }
+ 
+}
+
+@media (min-width: 1200px) {
+}
