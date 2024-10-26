@@ -13,7 +13,16 @@ jQuery(document).ready(function ($) {
         slideTransition: 'linear',
         autoplayTimeout: 0,
         autoplaySpeed: 3000,
-        autoplayHoverPause: false
+        autoplayHoverPause: false,
+		responsive:{
+			0:{
+				items:2,
+				margin: 40,
+			},
+			768:{
+				items:4
+			}
+		}
 
     });
 

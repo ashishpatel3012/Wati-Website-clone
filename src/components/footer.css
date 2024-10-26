@@ -70,3 +70,37 @@
     width: 30px;
     margin: 3px;
 }
+
+/* -----------------------------------------media query----------------------------- */
+
+@media (min-width: 768px) {
+
+    .footer-card img {
+        height: 100px;
+    }
+}
+
+
+@media (min-width: 768px) {
+
+    .footer-logos{
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footer-store img {
+        width: 100px;
+        gap: 10px;
+        margin: 3px;
+       
+    }
+    .footer-store{
+    
+        display: flex;
+        gap: 30px;
+        justify-content: space-between;
+       
+    }
+
+}

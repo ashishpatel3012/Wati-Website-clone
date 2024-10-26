@@ -6,6 +6,7 @@ const CardsAndLogos = () => {
    <div>
 
             <div className="two-cards">
+            <ul class="circles"> <li> </li><li> </li><li> </li><li> </li><li> </li><li> </li><li> </li><li> </li><li> </li><li> </li></ul>
                 <div className="container two-cards-box ">
                     <div className="title">
                         <h1>Over 10,000 customers</h1>
@@ -71,7 +72,7 @@ const CardsAndLogos = () => {
                 <h1>Choose the Wati advantage</h1>
                 <p>Use Wati to engage your prospects through the WhatsApp Business API</p>
             </div>
-            <div className="card-box">
+            <div className="card-box container">
                 <div className="cards">
                     <div><img src="/images/brk.webp" alt="" /></div>
                     <h1>Break engagement barriers</h1>
@@ -94,16 +95,18 @@ const CardsAndLogos = () => {
                     <p>Nurture leads from Facebook and Instagram and increase ROI 10x by funneling your leads to WhatsApp.</p>
                 </div>
             </div>
-
+            
+            
             <div className="green-card">
                 <div >
                     <h1><b>Discover more.</b> WhatsApp, Facebook and Instagram’s share of social media messaging is unrivaled. Harness it with one of the fastest growing WhatsApp Business Solution Providers.</h1>
                 </div>
-                <div >
+                <div className="green-card-btns" >
                     <button className="main-button white-btn">Free 7 Day Trial</button>
                     <button className="green-btn demo-btn " >Book Demo</button>
                 </div>
             </div>
+            
       </div> 
 
       

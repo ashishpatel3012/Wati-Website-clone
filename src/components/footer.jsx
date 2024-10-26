@@ -106,7 +106,7 @@ const Footer = () => {
           
           </div>
 
-          <div>
+          <div className="footer-logos">
             <div className="footer-Terms">
                 <a href=""><b>© Wati 2024.Clare.ai Limited. All rights reserved.</b></a> 
                 <br/>

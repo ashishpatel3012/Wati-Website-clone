@@ -67,7 +67,7 @@ button {
   content: "";
   background: #0000;
   width: 100%;
-  height: 100%;
+  height: 90%;
   position: absolute;
   top: -10px;
   bottom: 0;
@@ -98,8 +98,8 @@ button {
 
 }
 .white-btn.main-button::before {
-  top: 0;
-  left: 0;
+  /* top: 0;
+  left: 0; */
 }
 .main-button:hover:before {
   width: 100%;

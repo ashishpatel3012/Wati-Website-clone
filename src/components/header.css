@@ -131,17 +131,18 @@
   /* padding: 25px; */
 }
 .image-box {
-  width: 100%;
+  width: 85%;
   height: 100%;
   background-size: contain;
   background-image: url("C:\Users\Ashish\Desktop\React_js\Wati-clone\public\images\wati-dashboard-new.webp");
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
+  margin: 0 auto;
 }
 .home-box-1 img {
   /* background-color: aqua; */
-  width: 130px;
+  max-width: 130px;
   position: absolute;
 
   right: 35px;
@@ -267,7 +268,7 @@
         width: 520px; */
   }
   .home-box-1 img {
-    width: 280px;
+    max-width: 280px;
     height: fit-content;
     position: absolute;
     bottom: -130px;
@@ -330,6 +331,36 @@
     max-width: 1200px;
     margin: 0 auto;
   }
+  .card-box {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    width: 100%;
+}
+.card-box{
+  padding: 0 20px;
+}
+.cards {
+  /* max-width: 212px; */
+  
+}
+.cards p {
+  font-size: 16px;
+ 
+  line-height: 1;
+  font-weight: 400;
+  text-align: left;
+  margin: 10px 0;
+  padding: 0 0px;
+  line-height: 1.2;
+}
+.face-card-box h1{
+  text-align: left;
+}
+.header_text button{
+  margin: unset;
+}
 
   /* --------------------text hover -------------- */
   .menuMobile ul li a:hover {
@@ -343,8 +374,8 @@
     width: unset;
     display: flex;
     align-items: flex-start;
-    font-size: 18px;
-    margin-right: 10px;
+    font-size: 13px;
+    /* margin-right: 10px; */
   }
 
   .subMenu-box {
@@ -358,7 +389,16 @@
     /* flex-direction: row; */
     /* justify-content: left; */
   }
-  .dropdown li:hover .menuSubMobile {
+  .dropMenu-btn button{
+
+    width: 90px;
+    height: 33px;
+    font-size: 12px;
+    margin-left: 15px;
+
+    /* background-color: #ffe96e; */
+  }
+   .dropdown li:hover .menuSubMobile {
     color: #25e271;
     display: block;
     width: 200px;
@@ -416,7 +456,7 @@
   }
 
   .home-box-1 img {
-    width: 280px;
+    max-width: 280px;
     height: fit-content;
     position: absolute;
     bottom: -120px;
@@ -425,4 +465,34 @@
 
   /* .subMenu-box:hover .menuMobile{display: block;} */
   /* .dropdown:hover .dropdown-content {display: block;} */
+}
+
+@media (min-width: 1200px) {
+
+  /* .menuMobile > ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    font-size: 2rem;
+    font-weight: 800;
+  
+    margin: 0 auto;
+} */
+    .menuMobile ul li {
+        color: #25e271;
+        width: unset;
+        display: flex;
+        align-items: flex-start;
+        font-size: 18px;
+        /* margin-right: 10px; */
+    }
+    .card-box {
+      display: flex;
+      flex-direction: row;
+      align-items: start;
+      justify-content: space-between;
+      width: 100%;
+  }
+
 }

@@ -1,6 +1,6 @@
 .logos-box{
     width: 100%;
-    height: 150px;
+    height: 180px;
     background-color: #FDECFF;
     position: relative;
   
@@ -77,9 +77,30 @@
   }
   .slide img{
     /* background-color: red; */
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    /* width: 70px; */
+    display: flex;
+    gap: 0;
+    padding: 0;
     object-fit: contain;
+    margin-top: 30px;
+  }
+  .green-card-btns{
+    display: flex;
+    gap: 15px;
   }
   
   
+
+  /* -----------------------------------------media query----------------------------- */
+
+@media (max-width: 600px) {
+
+  .logos-layer::after,.logos-layer::before{
+  
+   
+    width: 8%;
+}
+
+
+}
