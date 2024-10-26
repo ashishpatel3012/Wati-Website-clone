@@ -5,6 +5,7 @@ import jQuery from 'jquery';
 window.jQuery = jQuery;
 
 
+
 import "./logosslide.css"
 import "./slider.css"
 import "./logosslide.js"

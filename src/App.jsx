@@ -1,5 +1,6 @@
 
 import './App.css'
+import './components/jquery.js'
 import BennerCards from './components/BennerCards'
 import Card_brands from './components/cards'
 import CardsAndLogos from './components/CardsAndLogos'
