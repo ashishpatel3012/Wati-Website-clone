@@ -1,6 +1,8 @@
 
 import { useState } from "react";
 import "./header.css";
+import jQuery from 'jquery';
+window.jQuery = jQuery;
 import { CgMenuRightAlt } from "react-icons/cg";
 
 import { IoIosArrowDown } from "react-icons/io";

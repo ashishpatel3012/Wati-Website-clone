@@ -1,8 +1,7 @@
 import "./CompanyLogos.css"
 
 // import $ from "jquery";
-import jQuery from 'jquery';
-window.jQuery = jQuery;
+
 
 
 import "./jquery.js"
