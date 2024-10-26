@@ -8099,7 +8099,7 @@ if ( !support.optSelected ) {
 		},
 		set: function( elem ) {
 
-			/* eslint no-unused-expressions: "off" */
+			// /* eslint no-unused-expressions: "off" */
 
 			var parent = elem.parentNode;
 			if ( parent ) {

@@ -75,13 +75,16 @@
   .slider{
     width: 100%;
   }
+ 
+
+  
   .slide img{
     /* background-color: red; */
     height: 50px;
     /* width: 70px; */
     display: flex;
     gap: 0;
-    padding: 0;
+    /* padding: 0; */
     object-fit: contain;
     margin-top: 30px;
   }

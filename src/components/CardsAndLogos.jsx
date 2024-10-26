@@ -6,7 +6,7 @@ const CardsAndLogos = () => {
    <div>
 
             <div className="two-cards">
-            <ul class="circles"> <li> </li><li> </li><li> </li><li> </li><li> </li><li> </li><li> </li><li> </li><li> </li><li> </li></ul>
+            <ul className="circles"> <li> </li><li> </li><li> </li><li> </li><li> </li><li> </li><li> </li><li> </li><li> </li><li> </li></ul>
                 <div className="container two-cards-box ">
                     <div className="title">
                         <h1>Over 10,000 customers</h1>
