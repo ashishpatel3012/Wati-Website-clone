@@ -20,7 +20,7 @@ jQuery(document).ready(function ($) {
 				margin: 40,
 			},
 			768:{
-				items:4
+				items:8
 			}
 		}
 
