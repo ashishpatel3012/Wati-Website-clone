@@ -1,5 +1,5 @@
 
-import "./cardsAndLogos.css"
+import "./CardsAndLogos.css"
 const CardsAndLogos = () => {
   return (
    
