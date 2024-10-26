@@ -1,10 +1,10 @@
 import "./CompanyLogos.css"
 
 // import $ from "jquery";
+import jQuery from 'jquery';
+window.jQuery = jQuery;
 
 
-
-import "./jquery.js"
 import "./logosslide.css"
 import "./slider.css"
 import "./logosslide.js"
