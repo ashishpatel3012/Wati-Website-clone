@@ -177,7 +177,7 @@ const handleSub5 = ()=>{
         <div className="home-container ">
 
           <div className="home-box-1 ">
-            <div className="image-box">
+            <div className="image-box" style={{backgroundImage:'url("./images/wati-dashboard-new.webp")'}} >
             <img src=".\images\wati-communicate.webp" alt="" />
             </div>
           </div>
